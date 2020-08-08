@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Royale Store</title>
+  </head>
+  <body class="bg-light">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-primary text-white font-weight-normal">
+      <!-- nama toko -->
+      <a class="navbar-brand" href="#">Royale Store</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <!-- isi navbar -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#produk">Produk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pesan">Pesan</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Lainya
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="pesan.html">Cara Memesan</a>
+              <a class="dropdown-item" href="syarat.html">Syarat dan ketentuan</a>
+              <a class="dropdown-item" href="saran.html">Pertanyaan dan Saran</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- jumbotron -->
+    <div id="home" class="jumbotron text-white text-center font-weight-bolder">
+      <h1 class="display-3 mt-xl-5 mt-lg-4 mt-md-2">Royale Store</h1>
+      <p class="lead">Kami adalah toko yang menyediakan polaroid dan custom handmade lainnya</p>
+      <p>Silahkan kunjungi sosial media kami</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Kunjungi</a>
+    </div>
+    <!-- produk -->
+    <div id="produk" class="container">
+      <div class="row">
+        <div class="col-12 text-center display-4">
+          <p>Produk Kami</p>
+        </div>
+      </div>
+      <!-- isi produk  -->
+      <div class="row">
+        <div class="col-3">
+          <div class="card " style="width: 16rem;">
+            <!-- foto produk -->
+            <img src="img/produk1.jpeg" class="card-img-top" alt="produk">
+            <div class="card-body">
+              <!-- nama dan keterangan singkat produk -->
+              <h5 class="card-title">Double Strip</h5>
+              <p class="card-text">Kamu bisa menyimpan banyak momment salam satu frame</p>
+              <a href="#" class="btn btn-primary">Keterangan</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- form pemesanan -->
+    <div id="pesan" class="container-fluid bg-white p-5 mt-5">
+      <div class="container">
+        <h3 class="text-center mb-5">Pemesanan</h3>
+
+        <!-- formulir -->
+          <!-- form nama -->
+          <div class="form-group row">
+            <label for="nama" class="col-sm-2 col-form-label">Nama</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="nama" placeholder="Masukan nama anda">
+            </div>
+          </div>
+          <!-- form alamat -->
+          <div class="form-group row">
+            <label for="alamat" class="col-sm-2 col-form-label">Alamat</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="alamat" placeholder="Masukan alamat rumah anda">
+            </div>
+          </div>
+
+          <div class="row">
+          <!-- card produk -->
+            <div class="col-2">
+              <div class="card " style="width: 10rem;">
+                <label for="produk1">
+                  <!-- foto produk -->
+                  <img src="img/produk1.jpeg" class="card-img-top" alt="produk">
+                </label>
+                    <!-- nama produk -->
+                <div class="card-body">
+                  <h5 class="card-title">Double Strip</h5>
+                  <div class="row">
+                    <!-- form input -->
+                    <div class="col-6 ml-n1">
+                      <p style="font-size: 10px">jumlah: </p>                    
+                    </div>
+                    <div class="col-6 ml-n3">
+                      <input id="produk1" type="number" style="width: 70px" >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card produk -->
+            <div class="col-2">
+              <div class="card " style="width: 10rem;">
+                <label for="produk1">
+                  <!-- foto produk -->
+                  <img src="img/produk1.jpeg" class="card-img-top" alt="produk">
+                </label>
+                    <!-- nama produk -->
+                <div class="card-body">
+                  <h5 class="card-title">Double Strip</h5>
+                  <div class="row">
+                    <!-- form input -->
+                    <div class="col-6 ml-n1">
+                      <p style="font-size: 10px">jumlah: </p>                    
+                    </div>
+                    <div class="col-6 ml-n3">
+                      <input id="produk2" type="number" style="width: 70px">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-primary mb-2 " onclick="send()">Submit</button>
+          <!-- ahir formulir -->
+          <a href="pesan.html">bingung pesennya gimana?</a>
+  
+        
+      </div> <!-- ahir container-->
+  
+    </div> <!-- ahir container fluid-->
+
+
+
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="script.js"> </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+  </body>
+</html>
