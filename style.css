@@ -6,29 +6,13 @@
 	background-size: cover;
 	height: 600px;
 }
-
-/*@media (min-width: 576px){
-	.jumbotron{
-		background-position: 0 -50px;
-		height: 350px;
-	}
-}
-@media (min-width: 768px){
-	.jumbotron{
-		background-position: 0 -100px;
-		height: 400px;
-	}
-}
-@media (min-width: 992px){
-	.jumbotron{
-		background-position: 0 -160px;
-		height: 450px;
-	}
-}
-*/
 @media (min-width: 1300px){
 	.jumbotron{
 		background-position: 0 -220px;
 		height: 500px;
 	}
+}
+.card:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+	transform: scale(1.02);
 }
