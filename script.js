@@ -19,14 +19,14 @@ let alamat = document.getElementById("alamat").value;
 		 	 			Saya%20${nama}%0A
 		 	 			Alamat:%20${alamat}%0A
 		 	 			Ingin%20memesan%20barang:%0A
-		 	 			Produk1:%20${produk1}%20pcs%0A
-		 	 			Produk2:%20${produk2}%20pcs%0A
-		 	 			Produk3:%20${produk3}%20pcs%0A
-		 	 			Produk4:%20${produk4}%20pcs%0A
-		 	 			Produk5:%20${produk5}%20pcs%0A
-		 	 			Produk6:%20${produk6}%20pcs%0A
-		 	 			Produk7:%20${produk7}%20pcs%0A
-		 	 			Produk8:%20${produk8}%20pcs%0A
+		 	 			Double%20Strip:%20${produk1}%20pcs%0A
+		 	 			One%20Strip:%20${produk2}%20pcs%0A
+		 	 			Instagram%20Pic:%20${produk3}%20pcs%0A
+		 	 			Reguler%20Size:%20${produk4}%20pcs%0A
+		 	 			Square%20Instax:%20${produk5}%20pcs%0A
+		 	 			Wide%20Size:%20${produk6}%20pcs%0A
+		 	 			Potret%20Pic:%20${produk7}%20pcs%0A
+		 	 			Mini%20poster:%20${produk8}%20pcs%0A
 		 	 			`;
 
 		 	 window.open(url);
