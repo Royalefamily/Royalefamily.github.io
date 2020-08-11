@@ -2,7 +2,7 @@
 	width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-	/*background-image: url(img/pola.jpg);*/
+	background-image: url(img/pola.jpg);
 	background-size: cover;
 	height: 600px;
 }
