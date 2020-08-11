@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
     <link rel="stylesheet" href="src/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-
+    <script src="https://kit.fontawesome.com/74380dcd52.js" crossorigin="anonymous"></script>
     <title>Royale Store</title>
   </head>
   <body class="bg-light">
@@ -133,6 +133,10 @@
                           <th>Custom Background</th>
                           <td>+ Rp. 500</td>
                         </tr>
+                        <tr>
+                          <th>Bobot/item</th>
+                          <td>6 foto</td>
+                        </tr>
                       </table>
                   </div>
                 </div>
@@ -193,6 +197,10 @@
                         <tr>
                           <th>Custom Background</th>
                           <td>+ Rp. 500</td>
+                        </tr>
+                        <tr>
+                          <th>Bobot/item</th>
+                          <td>3 foto</td>
                         </tr>
                       </table>
                   </div>
@@ -255,6 +263,10 @@
                           <th>Custom Background</th>
                           <td>+ Rp. 500</td>
                         </tr>
+                        <tr>
+                          <th>Bobot/item</th>
+                          <td>1 foto</td>
+                        </tr>
                       </table>
                   </div>
                 </div>
@@ -315,6 +327,10 @@
                         <tr>
                           <th>Custom Background</th>
                           <td>+ Rp. 500</td>
+                        </tr>
+                        <tr>
+                          <th>Bobot/item</th>
+                          <td>1 foto</td>
                         </tr>
                       </table>
                   </div>
@@ -381,6 +397,10 @@
                           <th>Custom Background</th>
                           <td>+ Rp. 500</td>
                         </tr>
+                        <tr>
+                          <th>Bobot/item</th>
+                          <td>1 foto</td>
+                        </tr>
                       </table>
                   </div>
                 </div>
@@ -442,6 +462,10 @@
                           <th>Custom Background</th>
                           <td>+ Rp. 500</td>
                         </tr>
+                        <tr>
+                          <th>Bobot/item</th>
+                          <td>1 foto</td>
+                        </tr>
                       </table>
                   </div>
                 </div>
@@ -500,8 +524,8 @@
                           <td>Rp. 2.000</td>
                         </tr>
                         <tr>
-                          <th>Custom Background</th>
-                          <td>+ Rp. 500</td>
+                          <th>Bobot/item</th>
+                          <td>2 foto</td>
                         </tr>
                       </table>
                   </div>
@@ -561,8 +585,8 @@
                           <td>Rp. 7.000</td>
                         </tr>
                         <tr>
-                          <th>Custom Background</th>
-                          <td>+ Rp. 500</td>
+                          <th>Bobot/item</th>
+                          <td>20 foto</td>
                         </tr>
                       </table>
                   </div>
@@ -592,7 +616,6 @@
             <label for="nama" class="col-sm-2 col-form-label">Nama</label>
             <div class="col-sm-10">
               <input type="text" class="form-control" id="nama" placeholder="Masukan nama anda" >
-              <input type="hidden" class="form-control" id="nama" placeholder="Masukan nama anda" value="true">
             </div>
           </div>
           <!-- form alamat -->
@@ -600,9 +623,34 @@
             <label for="alamat" class="col-sm-2 col-form-label">Alamat</label>
             <div class="col-sm-10">
               <input type="text" class="form-control" id="alamat" placeholder="Masukan alamat rumah anda">
-              <input type="hidden" id="alamat" value="true">
             </div>
           </div>
+          <div class="form-group row">
+            <div class="row">
+              <div class="col-6">
+                <label for="alamat" class="col-sm-2 col-form-label">kelurahan</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="kelurahan" placeholder="Kelurahan">
+                </div>
+                <label for="alamat" class="col-sm-2 col-form-label">Kecamatan</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="kecamatan" placeholder="Kecamatan">
+                </div>
+                
+              </div>
+              <div class="col-6">
+                <label for="alamat" class="col-sm-2 col-form-label">Kota</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="kota" placeholder="Kota">
+                  </div>
+                <label for="alamat" class="col-sm-2 col-form-label">Provinsi</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="provinsi" placeholder="Provinsi">
+                  </div>
+                </div>
+                
+              </div>
+          </div>  
 
           <div class="row">
           <!-- card produk -->
@@ -784,9 +832,21 @@
          
           
           </div>
-          <button class="btn btn-primary mb-2 " onclick="send()">Submit</button>
+          <div class="">
+            <select class="custom-select" id="cAdmin" aria-describedby="validationServer04Feedback" >
+                <option selected disabled value="">admin</option>
+                <option value="1" >Admin 1</option>
+                <option value="2" >Admin 2</option>
+                <option value="3" >Admin 3</option>
+            </select>
+            <button class="btn btn-primary mb-2 " onclick="send()">Submit</button>
+            
+          </div>
           <!-- ahir formulir -->
-          <a href="pesan.html">bingung pesennya gimana?</a>
+          <a href="pesan.html">Bingung pesennya gimana?</a>
+          ||
+          <a target="_blank" href="pesan.html#bobot">Cara tau batas minumum</a>
+
   
         
       </div> <!-- ahir container-->
@@ -794,14 +854,30 @@
     </div> <!-- ahir container fluid-->
 
     <footer class="bg-dark text-white">
+          <h4 class="text-center m-2 p-2">Tentang Kami</h4>
       <div class="row">
-        <div class="col-3"></div>
-        <div class="col-6 p-4 text-center">
-          <h5>Tentang Kami</h5>
-          <p>Royale Store tempat yang bertempat di Salatiga, tepatnya di daerah Tegalrejo. Yang menyediakan jasa cetak foto berbentuk polaroid termurah di Salatiga dan Handcraf lainya. Royale store terkadang mendapat order berupa hadiah ulangtahun. Kamu bisa loh pesan kado untuk temanmu, sahabatmu, orangtuamu bahkan pasanganmu di Royale Store. <br>
-          Yuk buruan order do Royale Store</p>
+        <div class="col-1"></div>
+        <div class="col-4">
+          <p>Royale store adalah toko online yang menyediakan  foto polaroid dan berbagai hand craft lainnya.</p>
         </div>
-        <div class="col-3"></div>
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-4">
+          <p>Royale store hadir dengan harga yang sangat terjangkau, kalian juga bisa untuk custom pesanan sesuka kalian.</p>
+        </div>
+        <div class="col-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10 text-center">
+          <p><a href="saran.html">Pertanyaan Saran dan Kritik</a></p>
+         <a target="_blank" href="https://www.instagram.com/royalestore7/"><i class="fab fa-instagram"></i></a> 
+         <a target="_blank" href="https://api.whatsapp.com/send?phone=6283821418918&text="><i class="fab fa-whatsapp"><span>Admin 1 </span> </i></a> 
+         <a target="_blank" href="https://api.whatsapp.com/send?phone=6288238877871&text="><i class="fab fa-whatsapp"><span>Admin 2 </span> </i></a> 
+         <a target="_blank" href="https://api.whatsapp.com/send?phone=6285743824012&text="><i class="fab fa-whatsapp"><span>Admin 3 </span> </i></a> 
+         <a target="_blank" href="https://web.facebook.com/Royale-Store-1001288080077229/"><i class="fab fa-facebook"></i></a> 
+        </div>
+        <div class="col-1"></div>
       </div>
     </footer>
 

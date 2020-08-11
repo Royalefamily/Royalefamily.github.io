@@ -1,6 +1,25 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- endof favicon -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,6 +30,32 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Royale Store</title>
+    <style>
+      @media (max-width: 366px){
+
+        h2 {
+            font-size: 13px;
+        }
+        p {
+            font-size: 9px;
+        }
+        div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 .card {
+          width: 6rem;
+          height: 185px;
+        }
+        h5.card-title {
+          font-size: 15px;
+        }
+        .Pkirim{color: #007bff}
+        div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 .card-body {
+          padding: 0px 5px;
+        }
+        div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 .card-body p{
+          font-size: 7px;
+          margin-left: 3px;
+        }
+      }
+    </style>
   </head>
   <body class="bg-light">
     <!-- navbar -->
@@ -24,31 +69,212 @@
       <a class="navbar-brand" href="index.html">Royale Store</a>
     </nav>
 
-    <div class="container mt-5 pt-5">
-      <h2 class="text-center font-weight-bold mb-5 p-3">Cara Pesan di Royale Store</h2>
-      <div class="row my-3">
-        <div class="col-4">
-          <p>1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis expedita debitis alias vitae repellat rerum tempora eaque explicabo mollitia fugiat ex unde maiores eveniet, cupiditate voluptatem tempore distinctio hic aspernatur?</p>
-        </div>
-        <div class="col-4">
-          <p>2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis expedita debitis alias vitae repellat rerum tempora eaque explicabo mollitia fugiat ex unde maiores eveniet, cupiditate voluptatem tempore distinctio hic aspernatur?</p>
-        </div>
-        <div class="col-4">
-          <p>3. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis expedita debitis alias vitae repellat rerum tempora eaque explicabo mollitia fugiat ex unde maiores eveniet, cupiditate voluptatem tempore distinctio hic aspernatur?</p>
-        </div>
-      </div>
-      <div class="row my-3">
-        <div class="col-4">
-          <p>4. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis expedita debitis alias vitae repellat rerum tempora eaque explicabo mollitia fugiat ex unde maiores eveniet, cupiditate voluptatem tempore distinctio hic aspernatur?</p>
-        </div>
-        <div class="col-4">
-          <p>5. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis expedita debitis alias vitae repellat rerum tempora eaque explicabo mollitia fugiat ex unde maiores eveniet, cupiditate voluptatem tempore distinctio hic aspernatur?</p>
-        </div>
-        <div class="col-4">
-          <p>6. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis expedita debitis alias vitae repellat rerum tempora eaque explicabo mollitia fugiat ex unde maiores eveniet, cupiditate voluptatem tempore distinctio hic aspernatur?</p>
-        </div>
-      </div>
-    </div>
+    <div class="container card-text mt-sm-5 pt-sm-5 pt-5 mt-2">
+      <h2 class="text-center font-weight-bold mb-5 p-3">Pemesanan di Royale Store</h2>
+        <div class=" container bg-white p-1">
+          <div class="row my-3">
+            <div class=" col-sm-4 col-6">
+              <p>1. Masukan nama dan alamat lengkap pada kolom yang tersedia. Agar kami mudah dalam mengidentifikasi tujuan pesanan</p>
+            </div>
+            <div class=" col-sm-4 col-6">
+              <p>2. Masukan jumlah pesanan dengan batas minimum pembelian ya. <a href="#bobot">Masih bingung menentukan batas minimumnya? </a>Minimum pembelian adalah 25 foto</p>
+            </div>
+            <div class=" col-sm-4 col-6">
+              <p>3. Klik tombol <span class="Pkirim">kirim</span>, lalu akan menuju ke aplikasi Whatsapp dan mengirimkan format pesan ke Admin Royale Store.</p>
+            </div>
+            <div class=" col-sm-4 col-6">
+              <p>4. Tentukan jasa kurir yang akan dipakai bersama admin</p>
+            </div>
+            <div class=" col-sm-4 col-6">
+              <p>5. Paket akan dikirimkan melalui kurir yang sudah ditentukan</p>
+            </div>
+            <div class=" col-sm-4 col-6">
+              <p>6. Tunggu hingga paket sampai dirumah anda</p>
+            </div>
+          </div>
+          <p class="text-center"> <a href="index.html#pesan">Pesan sekarang!!</a></p>
+         </div>
+          <h2 id="bobot"  class="text-center font-weight-bold mt-4 py-3 ">Minimal bobot foto 25</h2>
+         <div class="row mt-sm-4 mt-3">
+            <!-- card produk -->
+              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mb-1">
+                <div class="card ">
+                  <label for="produk1">
+                    <!-- foto produk -->
+                    <img src="img/produk1.jpeg" class="card-img-top" alt="produk">
+                  </label>
+                      <!-- nama produk -->
+                  <div class="card-body">
+                    <h5 class="card-title">Double Strip</h5>
+                    <div class="row">
+                      <!-- form input -->
+                      <div class="col-7 ml-n1">
+                        <p>Bobot: </p>                    
+                      </div>
+                      <div class="col-5 ml-n3">
+                        <p>6</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- card produk -->
+              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mb-1">
+                <div class="card ">
+                  <label for="produk2">
+                    <!-- foto produk -->
+                    <img src="img/produk2.jpeg" class="card-img-top" alt="produk">
+                  </label>
+                      <!-- nama produk -->
+                  <div class="card-body">
+                    <h5 class="card-title">One Strip</h5>
+                    <div class="row">
+                      <!-- form input -->
+                      <div class="col-7 ml-n1">
+                        <p>Bobot: </p>                    
+                      </div>
+                      <div class="col-5 ml-n3">
+                        <p>3</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- card produk -->
+              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mb-1">
+                <div class="card ">
+                  <label for="produk3">
+                    <!-- foto produk -->
+                    <img src="img/produk3.jpeg" class="card-img-top" alt="produk">
+                  </label>
+                      <!-- nama produk -->
+                  <div class="card-body">
+                    <h5 class="card-title">Instagram pic</h5>
+                    <div class="row">
+                      <!-- form input -->
+                      <div class="col-7 ml-n1">
+                        <p>Bobot: </p>                    
+                      </div>
+                      <div class="col-5 ml-n3">
+                        <p>1</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- card produk -->
+              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mb-1">
+                <div class="card ">
+                  <label for="produk4">
+                    <!-- foto produk -->
+                    <img src="img/produk4.jpeg" class="card-img-top" alt="produk">
+                  </label>
+                      <!-- nama produk -->
+                  <div class="card-body">
+                    <h5 class="card-title">Regular Size</h5>
+                    <div class="row">
+                      <!-- form input -->
+                      <div class="col-7 ml-n1">
+                        <p>Bobot: </p>                    
+                      </div>
+                      <div class="col-5 ml-n3">
+                        <p>1</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- card produk -->
+              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mb-1">
+                <div class="card ">
+                  <label for="produk5">
+                    <!-- foto produk -->
+                    <img src="img/produk5.jpeg" class="card-img-top" alt="produk">
+                  </label>
+                      <!-- nama produk -->
+                  <div class="card-body">
+                    <h5 class="card-title">Square Instax</h5>
+                    <div class="row">
+                      <!-- form input -->
+                      <div class="col-7 ml-n1">
+                        <p>Bobot: </p>                    
+                      </div>
+                      <div class="col-5 ml-n3">
+                        <p>1</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- card produk -->
+              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mb-1">
+                <div class="card ">
+                  <label for="produk6">
+                    <!-- foto produk -->
+                    <img src="img/produk6.jpeg" class="card-img-top" alt="produk">
+                  </label>
+                      <!-- nama produk -->
+                  <div class="card-body">
+                    <h5 class="card-title">Wide Size</h5>
+                    <div class="row">
+                      <!-- form input -->
+                      <div class="col-7 ml-n1">
+                        <p>Bobot: </p>                    
+                      </div>
+                      <div class="col-5 ml-n3">
+                        <p>1</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- card produk -->
+              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mb-1">
+                <div class="card ">
+                  <label for="produk7">
+                    <!-- foto produk -->
+                    <img src="img/produk7.jpeg" class="card-img-top" alt="produk">
+                  </label>
+                      <!-- nama produk -->
+                  <div class="card-body">
+                    <h5 class="card-title">Potret Pic</h5>
+                    <div class="row">
+                      <!-- form input -->
+                      <div class="col-7 ml-n1">
+                        <p>Bobot: </p>                    
+                      </div>
+                      <div class="col-5 ml-n3">
+                        <p>2</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- card produk -->
+              <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 mb-1">
+                <div class="card ">
+                  <label for="produk8">
+                    <!-- foto produk -->
+                    <img src="img/produk8.jpeg" class="card-img-top" alt="produk">
+                  </label>
+                      <!-- nama produk -->
+                  <div class="card-body">
+                    <h5 class="card-title">Mini Poster</h5>
+                    <div class="row">
+                      <!-- form input -->
+                      <div class="col-7 ml-n1">
+                        <p>Bobot: </p>                    
+                      </div>
+                      <div class="col-5 ml-n3">
+                        <p>20</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+       </div>
+
     
 
 

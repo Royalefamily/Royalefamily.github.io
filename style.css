@@ -2,7 +2,7 @@
 	width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-	background-image: url(img/pola.jpg);
+	/*background-image: url(img/pola.jpg);*/
 	background-size: cover;
 	height: 600px;
 }
@@ -30,24 +30,43 @@ div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 .card-body 
 div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 input{
 	width: 70px;
 }
+div#pesan button.btn.btn-primary.mb-2 {
+    margin: 11px;
+}
+#cAdmin{
+	width: 145px;
+}
+footer a{
+	color: #fff;
+}
+footer i {
+    font-size: 50px;
+    margin: 10px;
+}
+footer span {
+    font-size: 15px;
+}
 
 @media (max-width: 366px){
 
+	nav div#navbarNavDropdown a {
+	    font-size: 7px;
+	}
 	nav.navbar.navbar-expand-lg.navbar-light.fixed-top.bg-primary.text-white.font-weight-normal {
-		height: 32px;
+		
 	    padding: 1px 21px;
 	}
 	nav a.navbar-brand {
 	    font-size: 10px;
+	}
+	nav span.navbar-toggler-icon {
+	    font-size: 13px;
 	}
 	nav button.navbar-toggler {
 	    width: 26px;
 	    height: 26px;
 	    padding: 0;
 	    padding-bottom: 3px;
-	}
-	nav span.navbar-toggler-icon {
-	    font-size: 13px;
 	}
 	div#home {
 	    height: auto;
@@ -67,6 +86,12 @@ div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 input{
 	}
 	div#produk .col-12.text-center.display-4 p{
 		font-size: 30px; 
+	}
+	div.modal-content img {
+	    width: 250px;
+	}
+	div.modal-content table.table.table-borderless {
+	    font-size: 14px;
 	}
 	.col-xl-3.ml-xl-0.col-lg-4.ml-lg-0.col-md-4.pl-md-2.col-sm-6.col-6.mb-1 {
 	    margin-right: -31px;
@@ -104,7 +129,7 @@ div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 input{
 	div#pesan .form-group.row {
 	    font-size: 11px;
 	}
-	div#pesan input#nama, div#pesan input#alamat{
+	div#pesan input#nama, div#pesan input#alamat, input#kelurahan, input#kecamatan, input#kota, input#provinsi{
 		font-size: 10px;
 	}
 	div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 .card {
@@ -132,11 +157,18 @@ div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 input{
 	div#pesan .container a {
 	    font-size: 12px;
 	}
-	footer.bg-dark.text-white h5 {
+	footer.bg-dark.text-white h4 {
 	    font-size: 18px;
 	}
 	footer.bg-dark.text-white p {
 	    font-size: 7px;
+	}
+	footer i {
+	    font-size: 16px;
+	    margin: 2px;
+	}		
+	footer span {
+	    font-size: 5px;
 	}
 	.copyright.text-center.text-white.font-weight-bold.bg-primary.p-1 {
 	    height: 28px;
