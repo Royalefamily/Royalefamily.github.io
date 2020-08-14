@@ -2,7 +2,7 @@
 	width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
-	background-image: url(img/pola.jpg);
+	background-image: url(img/pola.jpeg);
 	background-size: cover;
 	height: 600px;
 }
@@ -47,8 +47,130 @@ footer span {
     font-size: 15px;
 }
 
-@media (max-width: 366px){
+@media (max-width: 500px){
 
+	nav.navbar.navbar-expand-lg.navbar-light.fixed-top.bg-primary.text-white.font-weight-normal {
+		padding: 1px 60px;
+	}
+	div#home {
+	    height: auto;
+	}
+	.jumbotron {
+	    background-position: 0px 0px;
+	}
+	div#home h1.display-3.mt-xl-5.mt-lg-5.pt-lg-5.mt-md-5.mt-sm-5.pt-sm-5.mt-5.pt-5 {
+	    font-size: 50px;
+	}
+	div#home p.lead {
+	    font-size: 14px;
+	}
+	div#home p {
+	    font-size: 14px;
+	}
+	div#home a.btn.btn-primary.btn-lg {
+	    font-size: 12px;
+	    margin-bottom: 20px;
+	}
+	div#produk .col-12.text-center.display-4 p {
+	    font-size: 35px;
+	}
+	.col-xl-3.ml-xl-0.col-lg-4.ml-lg-0.col-md-4.pl-md-2.col-sm-6.col-6.mb-1 {
+	    margin-right: auto;
+    	margin-left: auto;
+	}
+	div.col-xl-3.ml-xl-0.col-lg-4.ml-lg-0.col-md-4.pl-md-2.col-sm-6.col-6.mb-1 .card {
+	    width: 10rem;
+	    height: 285px;
+	    margin-left: auto;
+	}
+	div.col-xl-3.ml-xl-0.col-lg-4.ml-lg-0.col-md-4.pl-md-2.col-sm-6.col-6.mb-1 .card-body {
+	    padding: 13px;
+	}
+	div.col-xl-3.ml-xl-0.col-lg-4.ml-lg-0.col-md-4.pl-md-2.col-sm-6.col-6.mb-1 h5.card-title {
+	    font-size: 12px;
+	}
+	div.col-xl-3.ml-xl-0.col-lg-4.ml-lg-0.col-md-4.pl-md-2.col-sm-6.col-6.mb-1 p.card-text {
+	    font-size: 9.5px;
+	}
+	div.col-xl-3.ml-xl-0.col-lg-4.ml-lg-0.col-md-4.pl-md-2.col-sm-6.col-6.mb-1 a.btn.btn-primary {
+	    font-size: 8px;
+	    padding: 4px;
+	    margin: 0px;
+	    margin-top: -17px;
+	}
+	div#pesan {
+	    padding: 23px;
+	}
+	div#pesan .container {
+	    width: 100%;
+	    padding-right: 0px;
+	    padding-left: 0px;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+	div#pesan .form-group.row {
+	    font-size: 11px;
+	}
+	div#pesan input#nama, div#pesan input#alamat, input#kelurahan, input#kecamatan, input#kota, input#provinsi {
+	    font-size: 12px;
+	}
+	div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 .card {
+	    width: 10rem;
+	    height: 235px;
+	    margin-left: auto;
+	}
+	div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 .card-body {
+	    padding: 0px 5px;
+	}
+	div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 h5.card-title {
+	    font-size: 13px;
+	    padding: 0px;
+	}
+	div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 .card-body p {
+	    font-size: 10px;
+	    margin-left: 6px;
+	}
+	div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 input {
+	    width: 50px;
+	    font-size: 13px;
+	}
+	div#pesan select#cAdmin {
+	    font-size: 13px;
+	    width: 85px;
+	}
+	div#pesan .container button.btn.btn-primary.mb-2 {
+	    font-size: 13px;
+	    margin-top: 7px;
+	}
+	div#pesan .container a {
+	    font-size: 12px;
+	}
+	footer.bg-dark.text-white h4 {
+	    font-size: 20px;
+	}
+	footer.bg-dark.text-white p {
+	    font-size: 11px;
+	}
+	footer.bg-dark.text-white p {
+	    font-size: 11px;
+	}
+	footer i {
+	    font-size: 23px;
+	    margin: 0px 7px;
+	}
+	.copyright.text-center.text-white.font-weight-bold.bg-primary.p-1 {
+	    height: 28px;
+	}
+	.copyright.text-center.text-white.font-weight-bold.bg-primary.p-1 p {
+	    font-size: 10px;
+	}
+}
+
+@media (max-width: 365px){
+
+	.jumbotron {
+    	background-position: -80px 0px;
+	}
 	nav div#navbarNavDropdown a {
 	    font-size: 7px;
 	}
@@ -94,8 +216,8 @@ footer span {
 	    font-size: 14px;
 	}
 	.col-xl-3.ml-xl-0.col-lg-4.ml-lg-0.col-md-4.pl-md-2.col-sm-6.col-6.mb-1 {
-	    margin-right: -31px;
-    	margin-left: 15px;
+	    margin-right: auto;
+    	margin-left: auto;
 	}
 	div.col-xl-3.ml-xl-0.col-lg-4.ml-lg-0.col-md-4.pl-md-2.col-sm-6.col-6.mb-1 .card{
 		width: 7rem;
@@ -135,6 +257,8 @@ footer span {
 	div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 .card {
 		width: 6rem;
 	    height: 185px;
+	    margin-left: auto;
+    	margin-right: auto
 	}
 	div#pesan .container .col-xl-2.col-lg-3.col-md-4.col-sm-6.col-6.mb-1 .card-body {
 	    padding: 0px 5px;
@@ -155,7 +279,11 @@ footer span {
 	    margin-top: 11px;
 	}
 	div#pesan .container a {
-	    font-size: 12px;
+	    font-size: 7px;
+	}
+	div#pesan select#cAdmin {
+	    font-size: 10px;
+	    width: 72px;
 	}
 	footer.bg-dark.text-white h4 {
 	    font-size: 18px;
